@@ -1,6 +1,5 @@
 import React, {useState, useRef} from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-//import './Home.css';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 

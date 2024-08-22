@@ -6,6 +6,9 @@ using System.Text.Json;
 
 namespace PasswordPicsReact.Web.Controllers
 {
+    //https://github.com/EstherSalamon/3-11hmwkUnfinished
+    //This is how far I got back then
+
     [Route("api/[controller]")]
     [ApiController]
     public class ImagesController : ControllerBase
