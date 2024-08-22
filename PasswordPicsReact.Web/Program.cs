@@ -6,6 +6,7 @@ public class Program
     {
         var builder = WebApplication.CreateBuilder(args);
 
+        builder.Services.AddSession();
         builder.Services.AddControllersWithViews();
 
         var app = builder.Build();
@@ -18,7 +19,7 @@ public class Program
         //app.UseHttpsRedirection();
         app.UseStaticFiles();
         app.UseRouting();
-
+        app.UseSession();
 
         app.MapControllerRoute(
             name: "default",

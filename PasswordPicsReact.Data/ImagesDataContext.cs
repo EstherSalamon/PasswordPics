@@ -23,4 +23,6 @@ public class ImagesDataContext : DbContext
             relationship.DeleteBehavior = DeleteBehavior.Restrict;
         }
     }
+
+    public DbSet<Image> Images { get; set; }
 }
